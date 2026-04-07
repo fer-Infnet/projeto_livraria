@@ -1,7 +1,7 @@
 # Exercício 5
 import requests
 from bs4 import BeautifulSoup
-import csv  
+import csv
 
 # Exercício 6
 url = "http://books.toscrape.com/"
@@ -45,3 +45,4 @@ with open("relatorio_livros.csv", "w", newline="", encoding="utf-8") as arquivo:
     gravador.writerows(dados_extraidos)
 
 print("Relatório CSV gerado com sucesso!")
+#fim do código
